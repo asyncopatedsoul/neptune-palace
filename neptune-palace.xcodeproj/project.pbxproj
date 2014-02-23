@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB7DD4918BA5D7900FB946C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4818BA5D7900FB946C /* Foundation.framework */; };
+		4CB7DD4B18BA5D7900FB946C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4A18BA5D7900FB946C /* CoreGraphics.framework */; };
+		4CB7DD4D18BA5D7900FB946C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4C18BA5D7900FB946C /* UIKit.framework */; };
+		4CB7DD4F18BA5D7900FB946C /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4E18BA5D7900FB946C /* SpriteKit.framework */; };
+		4CB7DD5518BA5D7900FB946C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7DD5318BA5D7900FB946C /* InfoPlist.strings */; };
+		4CB7DD5718BA5D7900FB946C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7DD5618BA5D7900FB946C /* main.m */; };
+		4CB7DD5B18BA5D7900FB946C /* NPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7DD5A18BA5D7900FB946C /* NPAppDelegate.m */; };
+		4CB7DD5E18BA5D7900FB946C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7DD5C18BA5D7900FB946C /* Main_iPhone.storyboard */; };
+		4CB7DD6118BA5D7900FB946C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7DD5F18BA5D7900FB946C /* Main_iPad.storyboard */; };
+		4CB7DD6418BA5D7900FB946C /* NPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7DD6318BA5D7900FB946C /* NPViewController.m */; };
+		4CB7DD6718BA5D7900FB946C /* NPMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7DD6618BA5D7900FB946C /* NPMyScene.m */; };
+		4CB7DD6918BA5D7900FB946C /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7DD6818BA5D7900FB946C /* Spaceship.png */; };
+		4CB7DD6B18BA5D7900FB946C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7DD6A18BA5D7900FB946C /* Images.xcassets */; };
+		4CB7DD7218BA5D7900FB946C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD7118BA5D7900FB946C /* XCTest.framework */; };
+		4CB7DD7318BA5D7900FB946C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4818BA5D7900FB946C /* Foundation.framework */; };
+		4CB7DD7418BA5D7900FB946C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4C18BA5D7900FB946C /* UIKit.framework */; };
+		4CB7DD7C18BA5D7900FB946C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7DD7A18BA5D7900FB946C /* InfoPlist.strings */; };
+		4CB7DD7E18BA5D7900FB946C /* neptune_palaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7DD7D18BA5D7900FB946C /* neptune_palaceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB7DD7518BA5D7900FB946C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB7DD3D18BA5D7900FB946C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB7DD4418BA5D7900FB946C;
+			remoteInfo = "neptune-palace";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CB7DD4518BA5D7900FB946C /* neptune-palace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "neptune-palace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB7DD4818BA5D7900FB946C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CB7DD4A18BA5D7900FB946C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CB7DD4C18BA5D7900FB946C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CB7DD4E18BA5D7900FB946C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4CB7DD5218BA5D7900FB946C /* neptune-palace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "neptune-palace-Info.plist"; sourceTree = "<group>"; };
+		4CB7DD5418BA5D7900FB946C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CB7DD5618BA5D7900FB946C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CB7DD5818BA5D7900FB946C /* neptune-palace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "neptune-palace-Prefix.pch"; sourceTree = "<group>"; };
+		4CB7DD5918BA5D7900FB946C /* NPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPAppDelegate.h; sourceTree = "<group>"; };
+		4CB7DD5A18BA5D7900FB946C /* NPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPAppDelegate.m; sourceTree = "<group>"; };
+		4CB7DD5D18BA5D7900FB946C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4CB7DD6018BA5D7900FB946C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4CB7DD6218BA5D7900FB946C /* NPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPViewController.h; sourceTree = "<group>"; };
+		4CB7DD6318BA5D7900FB946C /* NPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPViewController.m; sourceTree = "<group>"; };
+		4CB7DD6518BA5D7900FB946C /* NPMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPMyScene.h; sourceTree = "<group>"; };
+		4CB7DD6618BA5D7900FB946C /* NPMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPMyScene.m; sourceTree = "<group>"; };
+		4CB7DD6818BA5D7900FB946C /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		4CB7DD6A18BA5D7900FB946C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CB7DD7018BA5D7900FB946C /* neptune-palaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "neptune-palaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB7DD7118BA5D7900FB946C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4CB7DD7918BA5D7900FB946C /* neptune-palaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "neptune-palaceTests-Info.plist"; sourceTree = "<group>"; };
+		4CB7DD7B18BA5D7900FB946C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CB7DD7D18BA5D7900FB946C /* neptune_palaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neptune_palaceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB7DD4218BA5D7900FB946C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB7DD4B18BA5D7900FB946C /* CoreGraphics.framework in Frameworks */,
+				4CB7DD4D18BA5D7900FB946C /* UIKit.framework in Frameworks */,
+				4CB7DD4F18BA5D7900FB946C /* SpriteKit.framework in Frameworks */,
+				4CB7DD4918BA5D7900FB946C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB7DD6D18BA5D7900FB946C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB7DD7218BA5D7900FB946C /* XCTest.framework in Frameworks */,
+				4CB7DD7418BA5D7900FB946C /* UIKit.framework in Frameworks */,
+				4CB7DD7318BA5D7900FB946C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB7DD3C18BA5D7900FB946C = {
+			isa = PBXGroup;
+			children = (
+				4CB7DD5018BA5D7900FB946C /* neptune-palace */,
+				4CB7DD7718BA5D7900FB946C /* neptune-palaceTests */,
+				4CB7DD4718BA5D7900FB946C /* Frameworks */,
+				4CB7DD4618BA5D7900FB946C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB7DD4618BA5D7900FB946C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7DD4518BA5D7900FB946C /* neptune-palace.app */,
+				4CB7DD7018BA5D7900FB946C /* neptune-palaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB7DD4718BA5D7900FB946C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7DD4818BA5D7900FB946C /* Foundation.framework */,
+				4CB7DD4A18BA5D7900FB946C /* CoreGraphics.framework */,
+				4CB7DD4C18BA5D7900FB946C /* UIKit.framework */,
+				4CB7DD4E18BA5D7900FB946C /* SpriteKit.framework */,
+				4CB7DD7118BA5D7900FB946C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CB7DD5018BA5D7900FB946C /* neptune-palace */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7DD5918BA5D7900FB946C /* NPAppDelegate.h */,
+				4CB7DD5A18BA5D7900FB946C /* NPAppDelegate.m */,
+				4CB7DD5C18BA5D7900FB946C /* Main_iPhone.storyboard */,
+				4CB7DD5F18BA5D7900FB946C /* Main_iPad.storyboard */,
+				4CB7DD6218BA5D7900FB946C /* NPViewController.h */,
+				4CB7DD6318BA5D7900FB946C /* NPViewController.m */,
+				4CB7DD6518BA5D7900FB946C /* NPMyScene.h */,
+				4CB7DD6618BA5D7900FB946C /* NPMyScene.m */,
+				4CB7DD6818BA5D7900FB946C /* Spaceship.png */,
+				4CB7DD6A18BA5D7900FB946C /* Images.xcassets */,
+				4CB7DD5118BA5D7900FB946C /* Supporting Files */,
+			);
+			path = "neptune-palace";
+			sourceTree = "<group>";
+		};
+		4CB7DD5118BA5D7900FB946C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7DD5218BA5D7900FB946C /* neptune-palace-Info.plist */,
+				4CB7DD5318BA5D7900FB946C /* InfoPlist.strings */,
+				4CB7DD5618BA5D7900FB946C /* main.m */,
+				4CB7DD5818BA5D7900FB946C /* neptune-palace-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CB7DD7718BA5D7900FB946C /* neptune-palaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7DD7D18BA5D7900FB946C /* neptune_palaceTests.m */,
+				4CB7DD7818BA5D7900FB946C /* Supporting Files */,
+			);
+			path = "neptune-palaceTests";
+			sourceTree = "<group>";
+		};
+		4CB7DD7818BA5D7900FB946C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7DD7918BA5D7900FB946C /* neptune-palaceTests-Info.plist */,
+				4CB7DD7A18BA5D7900FB946C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB7DD4418BA5D7900FB946C /* neptune-palace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB7DD8118BA5D7900FB946C /* Build configuration list for PBXNativeTarget "neptune-palace" */;
+			buildPhases = (
+				4CB7DD4118BA5D7900FB946C /* Sources */,
+				4CB7DD4218BA5D7900FB946C /* Frameworks */,
+				4CB7DD4318BA5D7900FB946C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "neptune-palace";
+			productName = "neptune-palace";
+			productReference = 4CB7DD4518BA5D7900FB946C /* neptune-palace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB7DD6F18BA5D7900FB946C /* neptune-palaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB7DD8418BA5D7900FB946C /* Build configuration list for PBXNativeTarget "neptune-palaceTests" */;
+			buildPhases = (
+				4CB7DD6C18BA5D7900FB946C /* Sources */,
+				4CB7DD6D18BA5D7900FB946C /* Frameworks */,
+				4CB7DD6E18BA5D7900FB946C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB7DD7618BA5D7900FB946C /* PBXTargetDependency */,
+			);
+			name = "neptune-palaceTests";
+			productName = "neptune-palaceTests";
+			productReference = 4CB7DD7018BA5D7900FB946C /* neptune-palaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB7DD3D18BA5D7900FB946C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Michael Garrido";
+				TargetAttributes = {
+					4CB7DD6F18BA5D7900FB946C = {
+						TestTargetID = 4CB7DD4418BA5D7900FB946C;
+					};
+				};
+			};
+			buildConfigurationList = 4CB7DD4018BA5D7900FB946C /* Build configuration list for PBXProject "neptune-palace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB7DD3C18BA5D7900FB946C;
+			productRefGroup = 4CB7DD4618BA5D7900FB946C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB7DD4418BA5D7900FB946C /* neptune-palace */,
+				4CB7DD6F18BA5D7900FB946C /* neptune-palaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB7DD4318BA5D7900FB946C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB7DD6918BA5D7900FB946C /* Spaceship.png in Resources */,
+				4CB7DD6B18BA5D7900FB946C /* Images.xcassets in Resources */,
+				4CB7DD6118BA5D7900FB946C /* Main_iPad.storyboard in Resources */,
+				4CB7DD5E18BA5D7900FB946C /* Main_iPhone.storyboard in Resources */,
+				4CB7DD5518BA5D7900FB946C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB7DD6E18BA5D7900FB946C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB7DD7C18BA5D7900FB946C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB7DD4118BA5D7900FB946C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB7DD6718BA5D7900FB946C /* NPMyScene.m in Sources */,
+				4CB7DD6418BA5D7900FB946C /* NPViewController.m in Sources */,
+				4CB7DD5B18BA5D7900FB946C /* NPAppDelegate.m in Sources */,
+				4CB7DD5718BA5D7900FB946C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB7DD6C18BA5D7900FB946C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB7DD7E18BA5D7900FB946C /* neptune_palaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB7DD7618BA5D7900FB946C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB7DD4418BA5D7900FB946C /* neptune-palace */;
+			targetProxy = 4CB7DD7518BA5D7900FB946C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CB7DD5318BA5D7900FB946C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB7DD5418BA5D7900FB946C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CB7DD5C18BA5D7900FB946C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB7DD5D18BA5D7900FB946C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB7DD5F18BA5D7900FB946C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB7DD6018BA5D7900FB946C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB7DD7A18BA5D7900FB946C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB7DD7B18BA5D7900FB946C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB7DD7F18BA5D7900FB946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB7DD8018BA5D7900FB946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB7DD8218BA5D7900FB946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "neptune-palace/neptune-palace-Prefix.pch";
+				INFOPLIST_FILE = "neptune-palace/neptune-palace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CB7DD8318BA5D7900FB946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "neptune-palace/neptune-palace-Prefix.pch";
+				INFOPLIST_FILE = "neptune-palace/neptune-palace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4CB7DD8518BA5D7900FB946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/neptune-palace.app/neptune-palace";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "neptune-palace/neptune-palace-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "neptune-palaceTests/neptune-palaceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4CB7DD8618BA5D7900FB946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/neptune-palace.app/neptune-palace";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "neptune-palace/neptune-palace-Prefix.pch";
+				INFOPLIST_FILE = "neptune-palaceTests/neptune-palaceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB7DD4018BA5D7900FB946C /* Build configuration list for PBXProject "neptune-palace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB7DD7F18BA5D7900FB946C /* Debug */,
+				4CB7DD8018BA5D7900FB946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB7DD8118BA5D7900FB946C /* Build configuration list for PBXNativeTarget "neptune-palace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB7DD8218BA5D7900FB946C /* Debug */,
+				4CB7DD8318BA5D7900FB946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CB7DD8418BA5D7900FB946C /* Build configuration list for PBXNativeTarget "neptune-palaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB7DD8518BA5D7900FB946C /* Debug */,
+				4CB7DD8618BA5D7900FB946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB7DD3D18BA5D7900FB946C /* Project object */;
+}
