@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>creatures</key>
+	<array>
+		<dict>
+			<key>y</key>
+			<integer>3</integer>
+			<key>x</key>
+			<integer>5</integer>
+			<key>direction</key>
+			<integer>2</integer>
+			<key>size</key>
+			<integer>0</integer>
+			<key>class</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>y</key>
+			<integer>3</integer>
+			<key>x</key>
+			<integer>4</integer>
+			<key>direction</key>
+			<integer>2</integer>
+			<key>size</key>
+			<integer>0</integer>
+			<key>class</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>y</key>
+			<integer>3</integer>
+			<key>x</key>
+			<integer>3</integer>
+			<key>direction</key>
+			<integer>1</integer>
+			<key>size</key>
+			<integer>0</integer>
+			<key>class</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>y</key>
+			<integer>3</integer>
+			<key>x</key>
+			<integer>1</integer>
+			<key>direction</key>
+			<integer>2</integer>
+			<key>size</key>
+			<integer>1</integer>
+			<key>class</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,6 +8,34 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface NPMyScene : SKScene
+@class NPCommandMarker,NPSeaCreature;
+
+@interface NPMyScene : SKScene <SKPhysicsContactDelegate> {
+    
+    bool isGameOver;
+    bool isGameStarted;
+    
+    double nextCreatureSpawnTime;
+    
+    NSMutableArray* commands;
+    NSMutableArray* creatures;
+    
+    NSMutableArray* protectedCreatures;
+    
+    CGPoint touchStart;
+    CGPoint touchCurrent;
+    
+    SKSpriteNode* touchMask;
+    
+    SKNode* gameOverRoot;
+    
+    int commandLimit;
+    int creatureLimit;
+    
+    NPCommandMarker* pendingCommand;
+}
+
+-(void) removeCommand:(NPCommandMarker*)command;
+-(void) removeCreature:(NPSeaCreature*)creature;
 
 @end

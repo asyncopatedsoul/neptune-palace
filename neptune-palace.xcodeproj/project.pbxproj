@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C667F4018BEBAB800FFADE2 /* NPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C667F3F18BEBAB800FFADE2 /* NPPlayer.m */; };
+		4C667F4218BEBB8100FFADE2 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C667F4118BEBB8100FFADE2 /* GameData.plist */; };
+		4C7C050F18BC00BE0094AF02 /* NPCommandMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C050E18BC00BE0094AF02 /* NPCommandMarker.m */; };
 		4CB7DD4918BA5D7900FB946C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4818BA5D7900FB946C /* Foundation.framework */; };
 		4CB7DD4B18BA5D7900FB946C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4A18BA5D7900FB946C /* CoreGraphics.framework */; };
 		4CB7DD4D18BA5D7900FB946C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4C18BA5D7900FB946C /* UIKit.framework */; };
@@ -25,6 +28,8 @@
 		4CB7DD7418BA5D7900FB946C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB7DD4C18BA5D7900FB946C /* UIKit.framework */; };
 		4CB7DD7C18BA5D7900FB946C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7DD7A18BA5D7900FB946C /* InfoPlist.strings */; };
 		4CB7DD7E18BA5D7900FB946C /* neptune_palaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7DD7D18BA5D7900FB946C /* neptune_palaceTests.m */; };
+		4CB7DD8918BAC62E00FB946C /* NPSeaCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7DD8818BAC62E00FB946C /* NPSeaCreature.m */; };
+		4CB7DD8A18BAC62E00FB946C /* NPSeaCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7DD8818BAC62E00FB946C /* NPSeaCreature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C667F3E18BEBAB800FFADE2 /* NPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPPlayer.h; sourceTree = "<group>"; };
+		4C667F3F18BEBAB800FFADE2 /* NPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPPlayer.m; sourceTree = "<group>"; };
+		4C667F4118BEBB8100FFADE2 /* GameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
+		4C7C050C18BBF4820094AF02 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4C7C050D18BC00BE0094AF02 /* NPCommandMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCommandMarker.h; sourceTree = "<group>"; };
+		4C7C050E18BC00BE0094AF02 /* NPCommandMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCommandMarker.m; sourceTree = "<group>"; };
 		4CB7DD4518BA5D7900FB946C /* neptune-palace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "neptune-palace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB7DD4818BA5D7900FB946C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CB7DD4A18BA5D7900FB946C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +73,8 @@
 		4CB7DD7918BA5D7900FB946C /* neptune-palaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "neptune-palaceTests-Info.plist"; sourceTree = "<group>"; };
 		4CB7DD7B18BA5D7900FB946C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CB7DD7D18BA5D7900FB946C /* neptune_palaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neptune_palaceTests.m; sourceTree = "<group>"; };
+		4CB7DD8718BAC62E00FB946C /* NPSeaCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPSeaCreature.h; sourceTree = "<group>"; };
+		4CB7DD8818BAC62E00FB946C /* NPSeaCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPSeaCreature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +105,8 @@
 		4CB7DD3C18BA5D7900FB946C = {
 			isa = PBXGroup;
 			children = (
+				4C667F3E18BEBAB800FFADE2 /* NPPlayer.h */,
+				4C667F3F18BEBAB800FFADE2 /* NPPlayer.m */,
 				4CB7DD5018BA5D7900FB946C /* neptune-palace */,
 				4CB7DD7718BA5D7900FB946C /* neptune-palaceTests */,
 				4CB7DD4718BA5D7900FB946C /* Frameworks */,
@@ -131,7 +146,13 @@
 				4CB7DD6318BA5D7900FB946C /* NPViewController.m */,
 				4CB7DD6518BA5D7900FB946C /* NPMyScene.h */,
 				4CB7DD6618BA5D7900FB946C /* NPMyScene.m */,
+				4C667F4118BEBB8100FFADE2 /* GameData.plist */,
 				4CB7DD6818BA5D7900FB946C /* Spaceship.png */,
+				4CB7DD8718BAC62E00FB946C /* NPSeaCreature.h */,
+				4CB7DD8818BAC62E00FB946C /* NPSeaCreature.m */,
+				4C7C050D18BC00BE0094AF02 /* NPCommandMarker.h */,
+				4C7C050E18BC00BE0094AF02 /* NPCommandMarker.m */,
+				4C7C050C18BBF4820094AF02 /* Constants.h */,
 				4CB7DD6A18BA5D7900FB946C /* Images.xcassets */,
 				4CB7DD5118BA5D7900FB946C /* Supporting Files */,
 			);
@@ -244,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C667F4218BEBB8100FFADE2 /* GameData.plist in Resources */,
 				4CB7DD6918BA5D7900FB946C /* Spaceship.png in Resources */,
 				4CB7DD6B18BA5D7900FB946C /* Images.xcassets in Resources */,
 				4CB7DD6118BA5D7900FB946C /* Main_iPad.storyboard in Resources */,
@@ -268,9 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB7DD6718BA5D7900FB946C /* NPMyScene.m in Sources */,
+				4CB7DD8918BAC62E00FB946C /* NPSeaCreature.m in Sources */,
 				4CB7DD6418BA5D7900FB946C /* NPViewController.m in Sources */,
 				4CB7DD5B18BA5D7900FB946C /* NPAppDelegate.m in Sources */,
 				4CB7DD5718BA5D7900FB946C /* main.m in Sources */,
+				4C7C050F18BC00BE0094AF02 /* NPCommandMarker.m in Sources */,
+				4C667F4018BEBAB800FFADE2 /* NPPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB7DD8A18BAC62E00FB946C /* NPSeaCreature.m in Sources */,
 				4CB7DD7E18BA5D7900FB946C /* neptune_palaceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +517,7 @@
 				4CB7DD8318BA5D7900FB946C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CB7DD8418BA5D7900FB946C /* Build configuration list for PBXNativeTarget "neptune-palaceTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +526,7 @@
 				4CB7DD8618BA5D7900FB946C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
